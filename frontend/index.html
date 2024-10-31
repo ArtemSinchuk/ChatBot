@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ChatGPT</h1>
+        <div class="response" id="response">Response will appear here...</div>
+        <div class="input-area">
+          <div class="input-wrapper">
+              <input type="text" id="userInput" placeholder="Type your message..." required>
+              <span id="clearButton" class="clear-button">&times;</span>
+          </div>    
+          <form id="chatForm">
+              <button id="sendButton" type="submit">Send</button>
+          </form>
+      </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
